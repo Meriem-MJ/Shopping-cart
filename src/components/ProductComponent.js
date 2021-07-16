@@ -29,7 +29,7 @@ const ProductComponent = () => {
                   </div>
                 </CardTitle>
                 <CardBody>
-                  <div className='row'>$ {price}</div>
+                  <div className='row'> $ {price}</div>
                   <div className='row'>
                   <CardText>{category}</CardText>
                   </div>

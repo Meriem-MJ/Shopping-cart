@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectedProduct, removeSelectedProduct } from "../redux/actions/productsActions";
 import { Card, CardTitle, CardImg, CardBody, CardText } from 'reactstrap';
 import { Button } from 'reactstrap';
+import {IoPricetagOutline} from 'react-icons/io5'
 
 const ProductDetails = () => {
   const { productId } = useParams();
@@ -53,6 +54,7 @@ const ProductDetails = () => {
                     </div>
                     <CardBody>
                       <h2>
+                        <IoPricetagOutline/>
                         <a >${price}</a>
                       </h2>
                       <h3>{category}</h3>
